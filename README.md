@@ -3,7 +3,7 @@
 A BitTorrent seedbox running in a local Vagrant VM using libtorrent.
 
 ## Quick Start
-
+Please run these in this exact order!
 ```bash
 # First-time setup (creates VM and installs dependencies)
 # Can also use as a 'fresh start' button
@@ -17,6 +17,21 @@ A BitTorrent seedbox running in a local Vagrant VM using libtorrent.
 ```bash
 # 3. Start the seedbox
 ./scripts/deploy.sh
+```
+
+## Check VM Logs:
+First, go to `/vps` and SSH into the VM with `vagrant ssh`
+```bash
+cd vps
+vagrant ssh
+```
+Then inside:
+```bash
+tail -f /home/vagrant/logs/orchestrator.log 
+```
+Or to view the wrapper logs
+```bash
+tail -f /home/vagrant/logs/wrapper.log 
 ```
 
 ## Requirements
