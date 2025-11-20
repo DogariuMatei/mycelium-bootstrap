@@ -67,17 +67,24 @@ PORT="2222"
 
 ssh -o StrictHostKeyChecking=no -p $PORT -i $KEY $HOST << 'EOF'
     sudo apt-get update -qq
-    sudo apt-get install -y python3 python3-pip > /dev/null
+    sudo apt-get install -y python3 python3-pip git > /dev/null
     python3 -m pip install libtorrent --user --quiet
-    mkdir -p /home/vagrant/music
+    mkdir -p /home/vagrant/music /home/vagrant/logs /home/vagrant/data
+
+    if [ ! -d "/home/vagrant/mycelium" ]; then
+        git clone https://github.com/DogariuMatei/mycelium.git /home/vagrant/mycelium
+    fi
 EOF
 echo "All Dependencies Installed on VM!"
 echo ""
 
-# Sync scripts
-echo "[6/6] Copying seedbox files to VM..."
-scp -P $PORT -i $KEY "$PROJECT_ROOT/seedbox.py" "$PROJECT_ROOT/requirements.txt" $HOST:/home/vagrant/ > /dev/null 2>&1
-echo "Files copied"
+# Install requirements
+echo "[6/6] Installing Python dependencies..."
+ssh -p $PORT -i $KEY $HOST << 'EOF'
+    cd /home/vagrant/mycelium
+    python3 -m pip install -r code/requirements.txt --user --quiet
+EOF
+echo "Dependencies installed"
 echo ""
 
 echo "========================================"
@@ -85,8 +92,8 @@ echo "  Setup Complete!"
 echo "========================================"
 echo ""
 echo "Next steps:"
-echo "  1. Run ./sync_music.sh to copy music files"
-echo "  2. Run ./deploy.sh to start the seedbox"
+echo "  1. Run ./sync_music.sh to copy music files (optional)"
+echo "  2. Run ./deploy.sh to start the orchestrator"
 echo ""
 echo "Useful commands:"
 echo "  vagrant ssh       - SSH into the VM"
