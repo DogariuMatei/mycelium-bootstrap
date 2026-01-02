@@ -1,4 +1,3 @@
-CreativeCommonsMusic/
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,jetbrains+all,python,jupyternotebooks,vagrant,nativescript
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,jetbrains+all,python,jupyternotebooks,vagrant,nativescript
@@ -320,5 +319,22 @@ pyrightconfig.json
 # Ignore all local history of files
 .history
 .ionide
+
+CLAUDE.md
+context/
+bootstrap_scripts/
+
+code/utils/logger
+
+# Mycelium runtime data
+*.log
+logs/
+data/
+CreativeCommonsMusic/*
+*.torrent
+
+
+
+.ENV
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,jetbrains+all,python,jupyternotebooks,vagrant,nativescript
