@@ -61,13 +61,15 @@ QUOTA_LIMIT = 9500
 
 # Search keywords for playlists
 playlist_keywords = [
-    'No Copyright Music Playlist',
-    'Creative Commons Playlist',
-    'Copyright Free Music Playlist',
-    'Royalty Free Playlist',
-    'CC Music Playlist',
-    'NCS Playlist',
-    'Public Domain Music Playlist'
+    'Public Domain Playlist',
+    'DMCA free playlist',
+    'License Free Playlist',
+    'free to use playlist',
+    'Monetization Safe Playlist'
+    'No Copyright Playlist',
+    # 'Creative Commons Playlist', used - nothing
+    # 'Copyright Free Playlist', used - nothing left
+    # 'Royalty Free Playlist'  used - nothing left
 ]
 
 print(f"\nSearching playlists with {len(playlist_keywords)} keywords...")
