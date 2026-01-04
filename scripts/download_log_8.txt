@@ -1,22 +1,0 @@
-[youtube] Extracting URL: https://youtube.com/watch?v=-8k2JC1Smws
-[youtube] -8k2JC1Smws: Downloading webpage
-[youtube] -8k2JC1Smws: Downloading android sdkless player API JSON
-[youtube] -8k2JC1Smws: Downloading tv client config
-[youtube] -8k2JC1Smws: Downloading tv player API JSON
-[youtube] -8k2JC1Smws: Downloading web safari player API JSON
-WARNING: [youtube] -8k2JC1Smws: Some tv client https formats have been skipped as they are missing a url. YouTube may have enabled the SABR-only or Server-Side Ad Placement experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
-WARNING: [youtube] -8k2JC1Smws: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
-WARNING: [youtube] -8k2JC1Smws: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
-[youtube] -8k2JC1Smws: Downloading m3u8 information
-[info] -8k2JC1Smws: Downloading 1 format(s): 251
-[info] Downloading video thumbnail 45 ...
-[info] Writing video thumbnail 45 to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8k2JC1Smws_FADE - Alan Walker ｜ Music ｜ Copyright Free Music ｜ Compose Music ｜.webp
-[info] Writing video metadata as JSON to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8k2JC1Smws_FADE - Alan Walker ｜ Music ｜ Copyright Free Music ｜ Compose Music ｜.info.json
-[download] Sleeping 5.00 seconds as required by the site...
-[download] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8k2JC1Smws_FADE - Alan Walker ｜ Music ｜ Copyright Free Music ｜ Compose Music ｜.webm
-[download]   0.0% of    2.28MiB at  336.35KiB/s ETA 00:06[download]   0.1% of    2.28MiB at  935.39KiB/s ETA 00:02[download]   0.3% of    2.28MiB at    2.01MiB/s ETA 00:01[download]   0.6% of    2.28MiB at    4.16MiB/s ETA 00:00[download]   1.3% of    2.28MiB at    5.98MiB/s ETA 00:00[download]   2.7% of    2.28MiB at    6.45MiB/s ETA 00:00[download]   5.4% of    2.28MiB at    7.16MiB/s ETA 00:00[download]  10.9% of    2.28MiB at    7.56MiB/s ETA 00:00[download]  21.9% of    2.28MiB at    6.16MiB/s ETA 00:00[download]  43.8% of    2.28MiB at    3.78MiB/s ETA 00:00[download]  87.6% of    2.28MiB at    3.17MiB/s ETA 00:00[download] 100.0% of    2.28MiB at    3.14MiB/s ETA 00:00[download] 100% of    2.28MiB in 00:00:01 at 1.50MiB/s   
-[ExtractAudio] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8k2JC1Smws_FADE - Alan Walker ｜ Music ｜ Copyright Free Music ｜ Compose Music ｜.flac
-Deleting original file /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8k2JC1Smws_FADE - Alan Walker ｜ Music ｜ Copyright Free Music ｜ Compose Music ｜.webm (pass -k to keep)
-[Metadata] Adding metadata to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8k2JC1Smws_FADE - Alan Walker ｜ Music ｜ Copyright Free Music ｜ Compose Music ｜.flac"
-[ThumbnailsConvertor] Converting thumbnail "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8k2JC1Smws_FADE - Alan Walker ｜ Music ｜ Copyright Free Music ｜ Compose Music ｜.webp" to png
-[EmbedThumbnail] mutagen: Adding thumbnail to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8k2JC1Smws_FADE - Alan Walker ｜ Music ｜ Copyright Free Music ｜ Compose Music ｜.flac"

@@ -1,27 +1,0 @@
-[youtube] Extracting URL: https://youtube.com/watch?v=-0ZCBGbT0Co
-[youtube] -0ZCBGbT0Co: Downloading webpage
-[youtube] -0ZCBGbT0Co: Downloading android sdkless player API JSON
-[youtube] -0ZCBGbT0Co: Downloading tv client config
-[youtube] -0ZCBGbT0Co: Downloading tv player API JSON
-[youtube] -0ZCBGbT0Co: Downloading web safari player API JSON
-[youtube] -0ZCBGbT0Co: Downloading player 50cc0679-main
-WARNING: [youtube] Falling back to generic n function search
-         player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
-WARNING: [youtube] -0ZCBGbT0Co: nsig extraction failed: Some formats may be missing
-         n = -lAr7aWTz34JoKZwOW ; player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
-         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-WARNING: [youtube] -0ZCBGbT0Co: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
-WARNING: [youtube] -0ZCBGbT0Co: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
-[youtube] -0ZCBGbT0Co: Downloading m3u8 information
-[info] -0ZCBGbT0Co: Downloading 1 format(s): 251
-[info] Downloading video thumbnail 45 ...
-[info] Writing video thumbnail 45 to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-0ZCBGbT0Co_Oh no no no laugh sound effect ｜｜tawa effect ｜｜ no copyright.webp
-[info] Writing video metadata as JSON to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-0ZCBGbT0Co_Oh no no no laugh sound effect ｜｜tawa effect ｜｜ no copyright.info.json
-[download] Sleeping 5.00 seconds as required by the site...
-[download] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-0ZCBGbT0Co_Oh no no no laugh sound effect ｜｜tawa effect ｜｜ no copyright.webm
-[download]   0.7% of  134.11KiB at   23.54KiB/s ETA 00:05[download]   2.2% of  134.11KiB at   70.01KiB/s ETA 00:01[download]   5.2% of  134.11KiB at  162.60KiB/s ETA 00:00[download]  11.2% of  134.11KiB at  346.96KiB/s ETA 00:00[download]  23.1% of  134.11KiB at  579.33KiB/s ETA 00:00[download]  47.0% of  134.11KiB at  454.22KiB/s ETA 00:00[download]  94.7% of  134.11KiB at  599.59KiB/s ETA 00:00[download] 100.0% of  134.11KiB at  632.47KiB/s ETA 00:00[download] 100% of  134.11KiB in 00:00:00 at 230.55KiB/s 
-[ExtractAudio] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-0ZCBGbT0Co_Oh no no no laugh sound effect ｜｜tawa effect ｜｜ no copyright.flac
-Deleting original file /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-0ZCBGbT0Co_Oh no no no laugh sound effect ｜｜tawa effect ｜｜ no copyright.webm (pass -k to keep)
-[Metadata] Adding metadata to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-0ZCBGbT0Co_Oh no no no laugh sound effect ｜｜tawa effect ｜｜ no copyright.flac"
-[ThumbnailsConvertor] Converting thumbnail "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-0ZCBGbT0Co_Oh no no no laugh sound effect ｜｜tawa effect ｜｜ no copyright.webp" to png
-[EmbedThumbnail] mutagen: Adding thumbnail to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-0ZCBGbT0Co_Oh no no no laugh sound effect ｜｜tawa effect ｜｜ no copyright.flac"

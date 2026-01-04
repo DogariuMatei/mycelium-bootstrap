@@ -29,8 +29,8 @@ Vagrant.configure("2") do |config|
   config.vm.disk :disk, size: "50GB", primary: true
 
   # Private network for secure host-VM communication (IPV8, BitTorrent)
-  # VM will be accessible at 192.168.56.10 from host only
-  config.vm.network "private_network", ip: "192.168.56.10"
+  # VM will be accessible at 192.168.57.10 from host only
+  config.vm.network "private_network", ip: "192.168.57.10"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine and only allow access
