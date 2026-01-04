@@ -1,0 +1,27 @@
+[youtube] Extracting URL: https://youtube.com/watch?v=-71dy1PWU3k
+[youtube] -71dy1PWU3k: Downloading webpage
+[youtube] -71dy1PWU3k: Downloading android sdkless player API JSON
+[youtube] -71dy1PWU3k: Downloading tv client config
+[youtube] -71dy1PWU3k: Downloading tv player API JSON
+[youtube] -71dy1PWU3k: Downloading web safari player API JSON
+[youtube] -71dy1PWU3k: Downloading player 50cc0679-main
+WARNING: [youtube] Falling back to generic n function search
+         player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+WARNING: [youtube] -71dy1PWU3k: nsig extraction failed: Some formats may be missing
+         n = -WuYVu3ddm1RwpkP9a ; player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] -71dy1PWU3k: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+WARNING: [youtube] -71dy1PWU3k: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[youtube] -71dy1PWU3k: Downloading m3u8 information
+[info] -71dy1PWU3k: Downloading 1 format(s): 251
+[info] Downloading video thumbnail 45 ...
+[info] Writing video thumbnail 45 to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-71dy1PWU3k_Songs In Public Domain 2023.webp
+[info] Writing video metadata as JSON to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-71dy1PWU3k_Songs In Public Domain 2023.info.json
+[download] Sleeping 5.00 seconds as required by the site...
+[download] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-71dy1PWU3k_Songs In Public Domain 2023.webm
+[download]   0.1% of    1.86MiB at   30.08KiB/s ETA 01:03[download]   0.2% of    1.86MiB at   89.43KiB/s ETA 00:21[download]   0.4% of    1.86MiB at  207.52KiB/s ETA 00:09[download]   0.8% of    1.86MiB at  442.43KiB/s ETA 00:04[download]   1.6% of    1.86MiB at  683.65KiB/s ETA 00:02[download]   3.3% of    1.86MiB at  216.35KiB/s ETA 00:08[download]   6.7% of    1.86MiB at  435.65KiB/s ETA 00:04[download]  13.4% of    1.86MiB at  614.68KiB/s ETA 00:02[download]  26.9% of    1.86MiB at  731.38KiB/s ETA 00:01[download]  53.8% of    1.86MiB at  836.21KiB/s ETA 00:01[download] 100.0% of    1.86MiB at  883.58KiB/s ETA 00:00[download] 100% of    1.86MiB in 00:00:02 at 760.77KiB/s 
+[ExtractAudio] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-71dy1PWU3k_Songs In Public Domain 2023.flac
+Deleting original file /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-71dy1PWU3k_Songs In Public Domain 2023.webm (pass -k to keep)
+[Metadata] Adding metadata to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-71dy1PWU3k_Songs In Public Domain 2023.flac"
+[ThumbnailsConvertor] Converting thumbnail "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-71dy1PWU3k_Songs In Public Domain 2023.webp" to png
+[EmbedThumbnail] mutagen: Adding thumbnail to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-71dy1PWU3k_Songs In Public Domain 2023.flac"

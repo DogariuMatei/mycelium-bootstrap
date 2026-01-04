@@ -1,0 +1,35 @@
+[youtube] Extracting URL: https://youtube.com/watch?v=--H5wYhunRw
+[youtube] --H5wYhunRw: Downloading webpage
+[youtube] --H5wYhunRw: Downloading android sdkless player API JSON
+[youtube] --H5wYhunRw: Downloading tv client config
+[youtube] --H5wYhunRw: Downloading tv player API JSON
+[youtube] --H5wYhunRw: Downloading web safari player API JSON
+[youtube] --H5wYhunRw: Downloading player 50cc0679-main
+WARNING: [youtube] Falling back to generic n function search
+         player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+WARNING: [youtube] --H5wYhunRw: nsig extraction failed: Some formats may be missing
+         n = 10BkPwtA7aYO5XcOl7 ; player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] --H5wYhunRw: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+WARNING: [youtube] --H5wYhunRw: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[youtube] --H5wYhunRw: Downloading m3u8 information
+[info] --H5wYhunRw: Downloading 1 format(s): 251
+[info] Downloading video thumbnail 45 ...
+[info] Video Thumbnail 45 does not exist
+[info] Downloading video thumbnail 44 ...
+[info] Video Thumbnail 44 does not exist
+[info] Downloading video thumbnail 43 ...
+[info] Video Thumbnail 43 does not exist
+[info] Downloading video thumbnail 42 ...
+[info] Video Thumbnail 42 does not exist
+[info] Downloading video thumbnail 41 ...
+[info] Writing video thumbnail 41 to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/--H5wYhunRw_Sweet Chicago   royalty free Blues Shuffle.webp
+[info] Writing video metadata as JSON to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/--H5wYhunRw_Sweet Chicago   royalty free Blues Shuffle.info.json
+[download] Sleeping 1.00 seconds as required by the site...
+[download] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/--H5wYhunRw_Sweet Chicago   royalty free Blues Shuffle.webm
+[download]   0.0% of    3.06MiB at  269.50KiB/s ETA 00:11[download]   0.1% of    3.06MiB at  767.86KiB/s ETA 00:04[download]   0.2% of    3.06MiB at    1.70MiB/s ETA 00:01[download]   0.5% of    3.06MiB at    3.57MiB/s ETA 00:00[download]   1.0% of    3.06MiB at    6.14MiB/s ETA 00:00[download]   2.0% of    3.06MiB at    7.93MiB/s ETA 00:00[download]   4.1% of    3.06MiB at    2.15MiB/s ETA 00:01[download]   8.2% of    3.06MiB at    3.23MiB/s ETA 00:00[download]  16.3% of    3.06MiB at    2.04MiB/s ETA 00:01[download]  32.7% of    3.06MiB at    2.42MiB/s ETA 00:00[download]  65.4% of    3.06MiB at    2.64MiB/s ETA 00:00[download] 100.0% of    3.06MiB at    3.32MiB/s ETA 00:00[download] 100% of    3.06MiB in 00:00:01 at 2.75MiB/s   
+[ExtractAudio] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/--H5wYhunRw_Sweet Chicago   royalty free Blues Shuffle.flac
+Deleting original file /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/--H5wYhunRw_Sweet Chicago   royalty free Blues Shuffle.webm (pass -k to keep)
+[Metadata] Adding metadata to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/--H5wYhunRw_Sweet Chicago   royalty free Blues Shuffle.flac"
+[ThumbnailsConvertor] Converting thumbnail "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/--H5wYhunRw_Sweet Chicago   royalty free Blues Shuffle.webp" to png
+[EmbedThumbnail] mutagen: Adding thumbnail to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/--H5wYhunRw_Sweet Chicago   royalty free Blues Shuffle.flac"

@@ -1,0 +1,27 @@
+[youtube] Extracting URL: https://youtube.com/watch?v=-9qgCoW3f3k
+[youtube] -9qgCoW3f3k: Downloading webpage
+[youtube] -9qgCoW3f3k: Downloading android sdkless player API JSON
+[youtube] -9qgCoW3f3k: Downloading tv client config
+[youtube] -9qgCoW3f3k: Downloading tv player API JSON
+[youtube] -9qgCoW3f3k: Downloading web safari player API JSON
+[youtube] -9qgCoW3f3k: Downloading player 50cc0679-main
+WARNING: [youtube] Falling back to generic n function search
+         player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+WARNING: [youtube] -9qgCoW3f3k: nsig extraction failed: Some formats may be missing
+         n = 1Z9aLMNwe4e48ZGl-h ; player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] -9qgCoW3f3k: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+WARNING: [youtube] -9qgCoW3f3k: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[youtube] -9qgCoW3f3k: Downloading m3u8 information
+[info] -9qgCoW3f3k: Downloading 1 format(s): 251
+[info] Downloading video thumbnail 45 ...
+[info] Writing video thumbnail 45 to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-9qgCoW3f3k_Kevin MacLeod： Constance.webp
+[info] Writing video metadata as JSON to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-9qgCoW3f3k_Kevin MacLeod： Constance.info.json
+[download] Sleeping 4.00 seconds as required by the site...
+[download] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-9qgCoW3f3k_Kevin MacLeod： Constance.webm
+[download]   0.0% of    2.38MiB at  758.46KiB/s ETA 00:03[download]   0.1% of    2.38MiB at    1.92MiB/s ETA 00:01[download]   0.3% of    2.38MiB at    4.18MiB/s ETA 00:00[download]   0.6% of    2.38MiB at    8.49MiB/s ETA 00:00[download]   1.3% of    2.38MiB at   11.40MiB/s ETA 00:00[download]   2.6% of    2.38MiB at   11.50MiB/s ETA 00:00[download]   5.2% of    2.38MiB at   11.16MiB/s ETA 00:00[download]  10.5% of    2.38MiB at   11.09MiB/s ETA 00:00[download]  21.0% of    2.38MiB at   10.90MiB/s ETA 00:00[download]  42.0% of    2.38MiB at   10.90MiB/s ETA 00:00[download]  84.0% of    2.38MiB at   10.93MiB/s ETA 00:00[download] 100.0% of    2.38MiB at    9.55MiB/s ETA 00:00[download] 100% of    2.38MiB in 00:00:00 at 7.60MiB/s   
+[ExtractAudio] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-9qgCoW3f3k_Kevin MacLeod： Constance.flac
+Deleting original file /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-9qgCoW3f3k_Kevin MacLeod： Constance.webm (pass -k to keep)
+[Metadata] Adding metadata to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-9qgCoW3f3k_Kevin MacLeod： Constance.flac"
+[ThumbnailsConvertor] Converting thumbnail "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-9qgCoW3f3k_Kevin MacLeod： Constance.webp" to png
+[EmbedThumbnail] mutagen: Adding thumbnail to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-9qgCoW3f3k_Kevin MacLeod： Constance.flac"

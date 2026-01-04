@@ -9,7 +9,7 @@ KEY=$(vagrant ssh-config | grep IdentityFile | awk '{print $2}')
 HOST="vagrant@localhost"
 PORT="2222"
 #######################################################
-# DELETE THE /TestMusic part if you want all your locally stored songs - replace with /CreativeCommonsMusic
+# Change to /CreativeCommonsMusic for full content with .info.json metadata
 MUSIC_DIR="$PROJECT_ROOT/TestMusic"
 #######################################################
 

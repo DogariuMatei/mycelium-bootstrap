@@ -1,0 +1,27 @@
+[youtube] Extracting URL: https://youtube.com/watch?v=-19hq3aRJv0
+[youtube] -19hq3aRJv0: Downloading webpage
+[youtube] -19hq3aRJv0: Downloading android sdkless player API JSON
+[youtube] -19hq3aRJv0: Downloading tv client config
+[youtube] -19hq3aRJv0: Downloading tv player API JSON
+[youtube] -19hq3aRJv0: Downloading web safari player API JSON
+[youtube] -19hq3aRJv0: Downloading player 50cc0679-main
+WARNING: [youtube] Falling back to generic n function search
+         player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+WARNING: [youtube] -19hq3aRJv0: nsig extraction failed: Some formats may be missing
+         n = K21pD8F6A2ey2pz2iN ; player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] -19hq3aRJv0: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+WARNING: [youtube] -19hq3aRJv0: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[youtube] -19hq3aRJv0: Downloading m3u8 information
+[info] -19hq3aRJv0: Downloading 1 format(s): 251
+[info] Downloading video thumbnail 50 ...
+[info] Writing video thumbnail 50 to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-19hq3aRJv0_Danileonis - Breakertronik Reloaded ｜ Full CC0 Album.webp
+[info] Writing video metadata as JSON to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-19hq3aRJv0_Danileonis - Breakertronik Reloaded ｜ Full CC0 Album.info.json
+[download] Sleeping 4.00 seconds as required by the site...
+[download] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-19hq3aRJv0_Danileonis - Breakertronik Reloaded ｜ Full CC0 Album.webm
+[download]   0.0% of   20.76MiB at   34.18KiB/s ETA 10:22[download]   0.0% of   20.76MiB at  101.94KiB/s ETA 03:28[download]   0.0% of   20.76MiB at  237.12KiB/s ETA 01:29[download]   0.1% of   20.76MiB at  506.46KiB/s ETA 00:41[download]   0.1% of   20.76MiB at  729.03KiB/s ETA 00:29[download]   0.3% of   20.76MiB at  840.49KiB/s ETA 00:25[download]   0.6% of   20.76MiB at    1.14MiB/s ETA 00:18[download]   1.2% of   20.76MiB at    1.61MiB/s ETA 00:12[download]   2.4% of   20.76MiB at    2.01MiB/s ETA 00:10[download]   4.8% of   20.76MiB at    2.49MiB/s ETA 00:07[download]   9.6% of   20.76MiB at    3.95MiB/s ETA 00:04[download]  19.3% of   20.76MiB at    2.14MiB/s ETA 00:07[download]  26.3% of   20.76MiB at    2.16MiB/s ETA 00:07[download]  37.0% of   20.76MiB at    2.15MiB/s ETA 00:06[download]  47.2% of   20.76MiB at    2.37MiB/s ETA 00:04[download]  48.1% of   20.76MiB at    2.39MiB/s ETA 00:04[download]  48.1% of   20.76MiB at   30.42KiB/s ETA 06:03[download]  48.1% of   20.76MiB at   90.63KiB/s ETA 02:01[download]  48.1% of   20.76MiB at  210.86KiB/s ETA 00:52[download]  48.1% of   20.76MiB at  450.68KiB/s ETA 00:24[download]  48.2% of   20.76MiB at  782.83KiB/s ETA 00:14[download]  48.4% of   20.76MiB at  868.69KiB/s ETA 00:12[download]  48.7% of   20.76MiB at    1.21MiB/s ETA 00:08[download]  49.3% of   20.76MiB at    1.84MiB/s ETA 00:05[download]  50.5% of   20.76MiB at    2.99MiB/s ETA 00:03[download]  52.9% of   20.76MiB at    4.70MiB/s ETA 00:02[download]  57.7% of   20.76MiB at    6.16MiB/s ETA 00:01[download]  67.3% of   20.76MiB at    3.48MiB/s ETA 00:01[download]  79.0% of   20.76MiB at    3.15MiB/s ETA 00:01[download]  92.1% of   20.76MiB at    3.25MiB/s ETA 00:00[download]  95.8% of   20.76MiB at    3.44MiB/s ETA 00:00[download]  95.8% of   20.76MiB at   29.16KiB/s ETA 00:30[download]  95.8% of   20.76MiB at   86.74KiB/s ETA 00:10[download]  95.8% of   20.76MiB at  201.74KiB/s ETA 00:04[download]  95.9% of   20.76MiB at  431.11KiB/s ETA 00:02[download]  95.9% of   20.76MiB at  675.41KiB/s ETA 00:01[download]  96.1% of   20.76MiB at  808.89KiB/s ETA 00:01[download]  96.4% of   20.76MiB at  181.89KiB/s ETA 00:04[download]  96.9% of   20.76MiB at  310.51KiB/s ETA 00:02[download]  97.8% of   20.76MiB at  559.95KiB/s ETA 00:00[download]  99.8% of   20.76MiB at    1.01MiB/s ETA 00:00[download] 100.0% of   20.76MiB at    1.07MiB/s ETA 00:00[download] 100% of   20.76MiB in 00:00:09 at 2.23MiB/s   
+[ExtractAudio] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-19hq3aRJv0_Danileonis - Breakertronik Reloaded ｜ Full CC0 Album.flac
+Deleting original file /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-19hq3aRJv0_Danileonis - Breakertronik Reloaded ｜ Full CC0 Album.webm (pass -k to keep)
+[Metadata] Adding metadata to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-19hq3aRJv0_Danileonis - Breakertronik Reloaded ｜ Full CC0 Album.flac"
+[ThumbnailsConvertor] Converting thumbnail "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-19hq3aRJv0_Danileonis - Breakertronik Reloaded ｜ Full CC0 Album.webp" to png
+[EmbedThumbnail] mutagen: Adding thumbnail to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-19hq3aRJv0_Danileonis - Breakertronik Reloaded ｜ Full CC0 Album.flac"

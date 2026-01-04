@@ -1,54 +1,71 @@
 #!/bin/bash
 
-# consts
-PLAYLIST_URL="https://www.youtube.com/playlist?list=PLzCxunOM5WFI6sgbAppnSgLQxxNg_d10L"
-OUTPUT_DIR="/home/doga/Desktop/thesis/CreativeCommonsMusic"
-NAME_FORMAT="%(title)s.%(ext)s"
-PLAYLIST_START=1
-PLAYLIST_END=1149
-CHUNKS=10
+# Get script directory for relative paths
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_DIR="$(dirname "$SCRIPT_DIR")"
 
-TOTAL_ITEMS=$((PLAYLIST_END - PLAYLIST_START + 1))
-CHUNK_SIZE=$((TOTAL_ITEMS / CHUNKS))
+# Configuration (relative to repo root)
+#URLS_FILE="$REPO_DIR/YT-API-CC-SCRIPT/cc_urls.txt"
+URLS_FILE="$REPO_DIR/YT-API-CC-SCRIPT/cc_urls_test.txt"
+OUTPUT_DIR="$REPO_DIR/CreativeCommonsMusic"
+NAME_FORMAT="%(id)s_%(title)s.%(ext)s"
+CHUNKS=10
+TEMP_DIR="/tmp/ytdlp_chunks"
+
+# Validate input file
+if [ ! -f "$URLS_FILE" ]; then
+    echo "Error: URLs file not found: $URLS_FILE"
+    exit 1
+fi
+
+TOTAL_URLS=$(wc -l < "$URLS_FILE")
+CHUNK_SIZE=$(( (TOTAL_URLS + CHUNKS - 1) / CHUNKS ))
+
+echo "Total URLs: $TOTAL_URLS"
+echo "Chunk size: ~$CHUNK_SIZE URLs per thread"
+echo "Output directory: $OUTPUT_DIR"
 
 mkdir -p "$OUTPUT_DIR"
+mkdir -p "$TEMP_DIR"
 
-download_range() {
-    local start=$1
-    local end=$2
-    local thread_id=$3
+# Split URLs file into chunks
+split -l "$CHUNK_SIZE" -d --additional-suffix=.txt "$URLS_FILE" "$TEMP_DIR/chunk_"
 
-    echo "Thread $thread_id: Downloading items $start to $end"
+download_chunk() {
+    local chunk_file=$1
+    local thread_id=$2
+    local chunk_count=$(wc -l < "$chunk_file")
+
+    echo "Thread $thread_id: Downloading $chunk_count URLs from $chunk_file"
 
     yt-dlp \
-        --playlist-start "$start" \
-        --playlist-end "$end" \
+        --batch-file "$chunk_file" \
         --output "$OUTPUT_DIR/$NAME_FORMAT" \
         -f ba \
         --extract-audio \
         --audio-format flac \
         --add-metadata \
         --embed-thumbnail \
+        --write-info-json \
+        --ignore-errors \
+        --no-overwrites \
         --concurrent-fragments 2 \
-        "$PLAYLIST_URL" \
         > "download_log_$thread_id.txt" 2>&1
 
     echo "Thread $thread_id: Done!"
 }
 
-# parallel downloads
-for i in $(seq 0 $((CHUNKS - 1))); do
-    start=$((PLAYLIST_START + i * CHUNK_SIZE))
-    end=$((start + CHUNK_SIZE - 1))
-
-    # last chunk does remainder
-    if [ $i -eq $((CHUNKS - 1)) ]; then
-        end=$PLAYLIST_END
-    fi
-
-    download_range "$start" "$end" "$i" &
+# Launch parallel downloads
+thread_id=0
+for chunk_file in "$TEMP_DIR"/chunk_*.txt; do
+    download_chunk "$chunk_file" "$thread_id" &
+    ((thread_id++))
 done
 
 wait
 
+# Cleanup temp files
+rm -rf "$TEMP_DIR"
+
 echo "All threads finished downloading!"
+echo "Downloaded files are in: $OUTPUT_DIR"

@@ -67,7 +67,8 @@ PORT="2222"
 
 ssh -o StrictHostKeyChecking=no -p $PORT -i $KEY $HOST << 'EOF'
     sudo apt-get update -qq
-    sudo apt-get install -y python3 python3-pip git > /dev/null
+    # Install Python, git, and system dependencies for pyipv8 (libsodium for libnacl)
+    sudo apt-get install -y python3 python3-pip git libsodium-dev > /dev/null
     python3 -m pip install libtorrent --user --quiet
     mkdir -p /home/vagrant/music /home/vagrant/logs /home/vagrant/data
 

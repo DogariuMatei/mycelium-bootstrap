@@ -1,0 +1,28 @@
+[youtube] Extracting URL: https://youtube.com/watch?v=-1Mn9k1z7bw
+[youtube] -1Mn9k1z7bw: Downloading webpage
+[youtube] -1Mn9k1z7bw: Downloading android sdkless player API JSON
+[youtube] -1Mn9k1z7bw: Downloading tv client config
+[youtube] -1Mn9k1z7bw: Downloading tv player API JSON
+[youtube] -1Mn9k1z7bw: Downloading web safari player API JSON
+[youtube] -1Mn9k1z7bw: Downloading player 50cc0679-main
+WARNING: [youtube] Falling back to generic n function search
+         player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+WARNING: [youtube] -1Mn9k1z7bw: nsig extraction failed: Some formats may be missing
+         n = ZOsTKSrOG1JUsO4Hi2 ; player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] -1Mn9k1z7bw: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+WARNING: [youtube] -1Mn9k1z7bw: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[youtube] -1Mn9k1z7bw: Downloading m3u8 information
+[info] -1Mn9k1z7bw: Downloading 1 format(s): 251
+[info] Downloading video thumbnail 49 ...
+[info] Video Thumbnail 49 does not exist
+[info] Downloading video thumbnail 48 ...
+[info] Writing video thumbnail 48 to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-1Mn9k1z7bw_Campus Manitoba： Creative Commons for Educators.jpg
+[info] Writing video metadata as JSON to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-1Mn9k1z7bw_Campus Manitoba： Creative Commons for Educators.info.json
+[download] Sleeping 4.00 seconds as required by the site...
+[download] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-1Mn9k1z7bw_Campus Manitoba： Creative Commons for Educators.webm
+[download]   0.0% of   22.40MiB at  491.14KiB/s ETA 00:46[download]   0.0% of   22.40MiB at    1.31MiB/s ETA 00:17[download]   0.0% of   22.40MiB at    2.91MiB/s ETA 00:07[download]   0.1% of   22.40MiB at    5.98MiB/s ETA 00:03[download]   0.1% of   22.40MiB at    7.17MiB/s ETA 00:03[download]   0.3% of   22.40MiB at    8.07MiB/s ETA 00:02[download]   0.6% of   22.40MiB at    8.48MiB/s ETA 00:02[download]   1.1% of   22.40MiB at    8.61MiB/s ETA 00:02[download]   2.2% of   22.40MiB at    6.38MiB/s ETA 00:03[download]   4.5% of   22.40MiB at    4.02MiB/s ETA 00:05[download]   8.9% of   22.40MiB at    3.79MiB/s ETA 00:05[download]  17.9% of   22.40MiB at    4.46MiB/s ETA 00:04[download]  35.7% of   22.40MiB at    3.50MiB/s ETA 00:04[download]  44.0% of   22.40MiB at    3.61MiB/s ETA 00:03[download]  44.0% of   22.40MiB at  617.35KiB/s ETA 00:20[download]  44.1% of   22.40MiB at    1.58MiB/s ETA 00:07[download]  44.1% of   22.40MiB at  742.62KiB/s ETA 00:17[download]  44.1% of   22.40MiB at    1.53MiB/s ETA 00:08[download]  44.2% of   22.40MiB at    3.13MiB/s ETA 00:03[download]  44.3% of   22.40MiB at    5.04MiB/s ETA 00:02[download]  44.6% of   22.40MiB at    6.35MiB/s ETA 00:01[download]  45.2% of   22.40MiB at    1.06MiB/s ETA 00:11[download]  46.3% of   22.40MiB at    1.68MiB/s ETA 00:07[download]  48.5% of   22.40MiB at    2.66MiB/s ETA 00:04[download]  53.0% of   22.40MiB at    3.47MiB/s ETA 00:03[download]  61.9% of   22.40MiB at    3.70MiB/s ETA 00:02[download]  79.5% of   22.40MiB at    4.37MiB/s ETA 00:01[download]  87.6% of   22.40MiB at    4.30MiB/s ETA 00:00[download]  87.6% of   22.40MiB at  765.38KiB/s ETA 00:03[download]  87.6% of   22.40MiB at    1.98MiB/s ETA 00:01[download]  87.7% of   22.40MiB at    4.32MiB/s ETA 00:00[download]  87.7% of   22.40MiB at    8.76MiB/s ETA 00:00[download]  87.8% of   22.40MiB at   11.04MiB/s ETA 00:00[download]  87.9% of   22.40MiB at   11.30MiB/s ETA 00:00[download]  88.2% of   22.40MiB at   11.15MiB/s ETA 00:00[download]  88.7% of   22.40MiB at   11.08MiB/s ETA 00:00[download]  89.9% of   22.40MiB at    1.86MiB/s ETA 00:01[download]  92.1% of   22.40MiB at    3.18MiB/s ETA 00:00[download]  96.6% of   22.40MiB at    4.94MiB/s ETA 00:00[download] 100.0% of   22.40MiB at    3.79MiB/s ETA 00:00[download] 100% of   22.40MiB in 00:00:06 at 3.52MiB/s   
+[ExtractAudio] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-1Mn9k1z7bw_Campus Manitoba： Creative Commons for Educators.flac
+Deleting original file /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-1Mn9k1z7bw_Campus Manitoba： Creative Commons for Educators.webm (pass -k to keep)
+[Metadata] Adding metadata to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-1Mn9k1z7bw_Campus Manitoba： Creative Commons for Educators.flac"
+[EmbedThumbnail] mutagen: Adding thumbnail to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-1Mn9k1z7bw_Campus Manitoba： Creative Commons for Educators.flac"

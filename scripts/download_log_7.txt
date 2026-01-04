@@ -1,0 +1,27 @@
+[youtube] Extracting URL: https://youtube.com/watch?v=-8_GHK0b9WY
+[youtube] -8_GHK0b9WY: Downloading webpage
+[youtube] -8_GHK0b9WY: Downloading android sdkless player API JSON
+[youtube] -8_GHK0b9WY: Downloading tv client config
+[youtube] -8_GHK0b9WY: Downloading tv player API JSON
+[youtube] -8_GHK0b9WY: Downloading web safari player API JSON
+[youtube] -8_GHK0b9WY: Downloading player 50cc0679-main
+WARNING: [youtube] Falling back to generic n function search
+         player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+WARNING: [youtube] -8_GHK0b9WY: nsig extraction failed: Some formats may be missing
+         n = JZGoaMaLT6xLi8_pxt ; player = https://www.youtube.com/s/player/50cc0679/player_ias.vflset/en_US/base.js
+         Please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+WARNING: [youtube] -8_GHK0b9WY: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+WARNING: [youtube] -8_GHK0b9WY: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[youtube] -8_GHK0b9WY: Downloading m3u8 information
+[info] -8_GHK0b9WY: Downloading 1 format(s): 251
+[info] Downloading video thumbnail 50 ...
+[info] Writing video thumbnail 50 to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8_GHK0b9WY_funny memes clips no copyright tik tok funny video clip  shocked meme aa ha ha meme 🤣😅.webp
+[info] Writing video metadata as JSON to: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8_GHK0b9WY_funny memes clips no copyright tik tok funny video clip  shocked meme aa ha ha meme 🤣😅.info.json
+[download] Sleeping 5.00 seconds as required by the site...
+[download] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8_GHK0b9WY_funny memes clips no copyright tik tok funny video clip  shocked meme aa ha ha meme 🤣😅.webm
+[download]   1.0% of   95.56KiB at  312.10KiB/s ETA 00:00[download]   3.1% of   95.56KiB at  876.61KiB/s ETA 00:00[download]   7.3% of   95.56KiB at    1.94MiB/s ETA 00:00[download]  15.7% of   95.56KiB at    4.05MiB/s ETA 00:00[download]  32.4% of   95.56KiB at  742.03KiB/s ETA 00:00[download]  65.9% of   95.56KiB at  627.20KiB/s ETA 00:00[download] 100.0% of   95.56KiB at  948.11KiB/s ETA 00:00[download] 100% of   95.56KiB in 00:00:01 at 68.56KiB/s  
+[ExtractAudio] Destination: /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8_GHK0b9WY_funny memes clips no copyright tik tok funny video clip  shocked meme aa ha ha meme 🤣😅.flac
+Deleting original file /home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8_GHK0b9WY_funny memes clips no copyright tik tok funny video clip  shocked meme aa ha ha meme 🤣😅.webm (pass -k to keep)
+[Metadata] Adding metadata to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8_GHK0b9WY_funny memes clips no copyright tik tok funny video clip  shocked meme aa ha ha meme 🤣😅.flac"
+[ThumbnailsConvertor] Converting thumbnail "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8_GHK0b9WY_funny memes clips no copyright tik tok funny video clip  shocked meme aa ha ha meme 🤣😅.webp" to png
+[EmbedThumbnail] mutagen: Adding thumbnail to "/home/doga/Desktop/thesis/local-vps-seedbox/CreativeCommonsMusic/-8_GHK0b9WY_funny memes clips no copyright tik tok funny video clip  shocked meme aa ha ha meme 🤣😅.flac"
