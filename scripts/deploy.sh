@@ -47,10 +47,7 @@ echo "========================================"
 echo "  Deployment Complete!"
 echo "========================================"
 echo ""
-echo "Monitor logs with:"
-echo "  ssh -p $PORT -i $KEY $HOST 'tail -f /home/vagrant/logs/orchestrator.log'"
+echo "Switching to VM orchestrator logs (Ctrl+C to exit)..."
 echo ""
-echo "Or SSH into VM -> vagrant ssh"
-echo " tail -f /home/vagrant/logs/orchestrator.log "
-echo " tail -f /home/vagrant/logs/wrapper.log "
-echo ""
+sleep 3
+ssh -p $PORT -i $KEY $HOST 'tail -f /home/vagrant/logs/orchestrator.log'
