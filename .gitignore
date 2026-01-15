@@ -321,6 +321,7 @@ pyrightconfig.json
 .ionide
 
 CLAUDE.md
+.claude
 context/
 bootstrap_scripts/
 
@@ -333,8 +334,25 @@ data/
 CreativeCommonsMusic/*
 *.torrent
 
-
-
 .ENV
+
+# Bitcoin wallet files
+*.db
+*.db-shm
+*.db-wal
+wallets/
+~/.mycelium/
+
+# SSH keys for deployment
+*.pem
+*_key
+*_key.pub
+deploy_key*
+id_rsa*
+id_ed25519*
+
+# SporeStack deployment secrets
+.sporestack/
+*.token
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,jetbrains+all,python,jupyternotebooks,vagrant,nativescript

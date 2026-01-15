@@ -1,25 +1,27 @@
 #!/bin/bash
+#
+# Download Creative Commons videos in parallel using yt-dlp.
+# Usage: ./parallel_ytdlp_download.sh [urls_file]
 
-# Get script directory for relative paths
+set -e
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="$(dirname "$SCRIPT_DIR")"
 
-# Configuration (relative to repo root)
-#URLS_FILE="$REPO_DIR/YT-API-CC-SCRIPT/cc_urls.txt"
-URLS_FILE="$REPO_DIR/YT-API-CC-SCRIPT/cc_urls_test.txt"
+# Default to full URL list, can be overridden via argument
+URLS_FILE="${1:-$REPO_DIR/yt-api-cc-scripts/cc_urls.txt}"
 OUTPUT_DIR="$REPO_DIR/CreativeCommonsMusic"
 NAME_FORMAT="%(id)s_%(title)s.%(ext)s"
-CHUNKS=10
+PARALLEL_CHUNKS=10
 TEMP_DIR="/tmp/ytdlp_chunks"
 
-# Validate input file
 if [ ! -f "$URLS_FILE" ]; then
     echo "Error: URLs file not found: $URLS_FILE"
     exit 1
 fi
 
 TOTAL_URLS=$(wc -l < "$URLS_FILE")
-CHUNK_SIZE=$(( (TOTAL_URLS + CHUNKS - 1) / CHUNKS ))
+CHUNK_SIZE=$(( (TOTAL_URLS + PARALLEL_CHUNKS - 1) / PARALLEL_CHUNKS ))
 
 echo "Total URLs: $TOTAL_URLS"
 echo "Chunk size: ~$CHUNK_SIZE URLs per thread"
